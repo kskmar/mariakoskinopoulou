@@ -25,3 +25,6 @@ main a{font-weight:700}
 
 /* Seven photographs in two compact rows, without captions. */
 .student-gallery{grid-template-columns:repeat(12,minmax(0,1fr));gap:6px}.student-gallery figure{grid-column:span 3;margin:0;min-width:0}.student-gallery figure:nth-child(n+5){grid-column:span 4}.student-gallery img{width:100%;height:145px;max-height:none;object-fit:cover;object-position:center 35%;border-radius:3px;background:none}.student-gallery figure:nth-child(4) img{object-position:center 30%}@media(max-width:760px){.student-gallery{grid-template-columns:repeat(2,minmax(0,1fr));gap:6px}.student-gallery figure,.student-gallery figure:nth-child(n+5){grid-column:span 1}.student-gallery figure:last-child{grid-column:span 2}.student-gallery img{height:155px;max-height:none}}
+
+/* Dedicated supervision page in the main navigation. */
+body:has(#supervision:target) nav a[href="#supervision"]{border-color:#a9c5e3;color:#fff;font-weight:600}.site-header nav{gap:22px}#supervision .project-ideas{margin-top:14px}
