@@ -1,15 +1,10 @@
 # Maria Koskinopoulou — personal website
 
-A simple static academic website for GitHub Pages. No build step or external dependencies.
+## Update your website
+Upload `index.html` to the root of `kskmar/mariakoskinopoulou`, replacing the existing file. All four tabs, course content, colours, portrait and navigation are included in this one file. No other files are required for the updated main website.
 
-## Pages
-- `index.html`: personal profile and contact
-- `index_proj.html`: research interests and earlier projects
-- `index_pub.html`: selected earlier publications and links to the current list
-- `teaching.html`: courses and supervision
+Open `index.html` locally to preview. Teaching has subtabs for B31MV, B37EE Electrical and Electronic Engineering and Introduction to Robotics and AI. B31MV includes semester and weekly hours, course description, weekly outline, an expandable syllabus, recommended books and Canvas.
 
-## Publish
-Upload the files in this folder to the root of `kskmar/mariakoskinopoulou`, replacing the matching files. Keep GitHub Pages configured to use your existing publishing branch and root folder. The website URL remains https://kskmar.github.io/mariakoskinopoulou/.
+The three other HTML files redirect older page addresses to the new tabs. Upload them too if you want older direct links to open the updated site.
 
-## Edit
-Edit the HTML page you want to update. The design source is in `style.css` and is embedded in each HTML page to avoid stale cached styles. Update the embedded style blocks in all four HTML files when changing the design, and the portrait is `mariakosk.png`. Navigation and sidebar are repeated in each HTML file: update all four when changing a shared link. The publication page deliberately links to Google Scholar for the current list and retains only selected published entries from the original site.
+Edit content or the embedded stylesheet in `index.html`. `style.css` is retained as a reference copy. The publication list is a snapshot of the ARM²Lab list, filtered to Maria’s publications and sorted by year, newest first.
