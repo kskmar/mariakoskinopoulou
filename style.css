@@ -4,3 +4,9 @@
 
 /* Smaller page headings, white background and a dark navigation bar. */
 body{background:#fff}h1{font-size:36px;line-height:1.2;letter-spacing:-.7px}.site-header{max-width:none;background:#263e38;border-bottom:0;padding-left:max(36px,calc((100% - 1048px)/2));padding-right:max(36px,calc((100% - 1048px)/2))}.site-header .brand{color:#fff}.site-header .brand span{color:#c3d1ca}.site-header nav a{color:#e1e9e4}.site-header nav a:hover{color:#fff}.site-header nav a[aria-current]{color:#fff;border-color:#c5d4a9}.my-name{text-decoration:underline;text-underline-offset:3px}.paper-links{font-size:13px}.publications .authors{margin-bottom:7px}.publications .venue{margin-bottom:8px}@media(max-width:760px){.site-header{padding:24px}h1{font-size:32px}}
+
+/* Compact publication list. */
+.publications li{padding:12px 0}.publications h3{font-size:16px;line-height:1.4;margin-bottom:4px}.publications .authors{line-height:1.5;margin-bottom:3px}.publications .venue{line-height:1.5;margin-bottom:3px}.paper-links{line-height:1.5}
+
+/* Emphasise links in page text. */
+main a{font-weight:700}
