@@ -10,3 +10,6 @@ body{background:#fff}h1{font-size:36px;line-height:1.2;letter-spacing:-.7px}.sit
 
 /* Emphasise links in page text. */
 main a{font-weight:700}
+
+/* Dark blue navigation, bold profile links and course tables. */
+.site-header{background:#20364f}.site-header .brand span{color:#c7d4e2}.site-header nav a{color:#e1e9f2}.site-header nav a[aria-current]{border-color:#a9c5e3}.social a{font-weight:700}.course-section{margin-top:28px}.course-section>h3{font-family:Georgia,serif;font-size:21px;font-weight:400;color:#263e38;margin-bottom:12px}.table-scroll{overflow-x:auto}.course-table{width:100%;border-collapse:collapse;text-align:left;font-size:14px;line-height:1.6}.course-table th,.course-table td{padding:11px 12px;vertical-align:top;border-bottom:1px solid #e0e5eb}.course-table thead th{background:#f0f4f8;color:#20364f;font-weight:600}.course-table tbody th{font-weight:600;white-space:nowrap}.course-table tbody th:first-child{padding-left:12px}.syllabus-table{font-size:13px}.syllabus-table th:first-child{white-space:normal}.syllabus-table td:last-child{min-width:85px}.syllabus-list{margin:0;padding-left:16px}.syllabus-list li{margin-bottom:7px}.syllabus-list li:last-child{margin:0}.book-meta{color:#66716d;font-size:12px}@media(max-width:760px){.syllabus-table{min-width:570px}.course-table th,.course-table td{padding:9px 10px}}
